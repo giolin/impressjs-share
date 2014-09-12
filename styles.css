@@ -1,0 +1,206 @@
+.no-support-message { display:none; }
+.impress-not-supported .no-support-message { display:block; }
+
+body { 
+	background:#EBEBEB;
+	font:50px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color:#333;
+}
+
+.step {
+    position: relative;
+    width: 900px;
+    margin: auto;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+
+    font-size: 48px;
+}
+
+/*
+    ... and we enhance the styles for impress.js.
+
+    Basically we remove the margin and make inactive steps a little bit transparent.
+*/
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0.3;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition:    opacity 1s;
+    -ms-transition:     opacity 1s;
+    -o-transition:      opacity 1s;
+    transition:         opacity 1s;
+}
+
+.impress-enabled .step.active { opacity: 1 }
+
+/*
+    These 'slide' step styles were heavily inspired by HTML5 Slides:
+    http://html5slides.googlecode.com/svn/trunk/styles.css
+
+    ;)
+
+    They cover everything what you see on first three steps of the demo.
+*/
+.slide {
+
+    width: 900px;
+    height: 700px;
+    padding: 40px 60px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+
+    color: rgb(102, 102, 102);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+    font-size: 36px;
+}
+
+.topic {
+	line-height: 630px;
+	text-align: center;
+
+	font-size: 56px;
+}
+
+#demo iframe {
+	width: 100%;
+	height: 100%;
+}
+
+#howdoesitwork p{
+	padding-top: 50px;
+	text-align: center;
+}
+
+#howdoesitwork img {
+	width: 400px;
+	height: 400px;
+}
+
+#firststep xmp {
+	font-size: 20px;
+}
+
+#examplecode xmp {
+	padding-top: 50px;
+	padding-left: 170px;
+	font-size: 24px;
+}
+
+#overview {
+	display: none;
+}
+
+#coordinate xmp {
+	padding-top: 10px;
+	padding-left: 100px;
+	font-size: 24px;
+}
+
+#zaxis1 xmp {
+	padding-top: 10px;
+	padding-left: 0px;
+	font-size: 24px;
+}
+
+#zaxis2 xmp {
+	padding-top: 10px;
+	padding-left: 0px;
+	font-size: 24px;
+}
+
+#zaxis3 xmp {
+	padding: 10px;
+	padding-left: 0px;
+	font-size: 24px;
+}
+
+#rotate1 xmp {
+	padding: 10px;
+	padding-left: 0px;
+	font-size: 24px;
+}
+
+#rotate2 xmp {
+	padding: 10px;
+	padding-left: 0px;
+	font-size: 24px;
+}
+
+#whatelseisgood {
+	padding-top: 250px;
+	text-align: center;
+}
+
+#manyotherbenifits {
+	padding-top: 340px;
+	text-align: center;
+}
+
+#theend {
+	padding-top: 340px;
+	text-align: center;
+}
+
+#thanksforyourattention span  {
+    display: inline-block;
+    -webkit-transform: translateZ(70px);
+    -moz-transform:    translateZ(70px);
+    -ms-transform:     translateZ(70px);
+    -o-transform:      translateZ(70px);
+     transform:        translateZ(70px);
+
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+}
+
+#thanksforyourattention .thanks {
+	-webkit-transform: translateZ(90px);
+    -moz-transform:    translateZ(90px);
+    -ms-transform:     translateZ(90px);
+    -o-transform:      translateZ(90px);
+    transform:         translateZ(90px);
+}
+
+#thanksforyourattention .thanks {
+    -webkit-transform: translateZ(50px);
+    -moz-transform:    translateZ(50px);
+    -ms-transform:     translateZ(50px);
+    -o-transform:      translateZ(50px);
+    transform:         translateZ(50px);
+}
+
+#thanksforyourattention .thanks {
+	-webkit-transform: translateZ(-40px);
+    -moz-transform:    translateZ(-40px);
+    -ms-transform:     translateZ(-40px);
+    -o-transform:      translateZ(-40px);
+    transform:         translateZ(-40px);
+}
+
+#thanksforyourattention .thanks {
+    -webkit-transform: translateZ(20px);
+    -moz-transform:    translateZ(20px);
+    -ms-transform:     translateZ(20px);
+    -o-transform:      translateZ(20px);
+    transform:         translateZ(20px);
+}
+
+#thanksforyourattention span {
+    -webkit-transform: translateZ(0px);
+    -moz-transform:    translateZ(0px);
+    -ms-transform:     translateZ(0px);
+    -o-transform:      translateZ(0px);
+    transform:         translateZ(0px);
+}
