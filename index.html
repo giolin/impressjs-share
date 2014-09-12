@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+	<title>Impress</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="impress">
+		
+		<div class="step slide topic" data-X="0" data-y="0">
+			Impress.js <small><small><small> by George</small></small></small>
+		</div>
+
+		<div id="demo" class="step slide" data-X="1000" data-y="0">
+			<iframe src="http://bartaz.github.io/impress.js/#/bored"></iframe>
+		</div>
+		
+		<div id="howdoesitwork" class="step slide" data-X="2000" data-y="0">
+			<p>So, how does it work?<p>
+			<img src="http://www.harborfreight.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/m/image_21352.jpg">
+		</div>
+
+		<div id="firststep" class="step slide" data-X="2000" data-y="0" data-z="-1500">
+			First, include Impress.js into your html file.
+<xmp>
+<html>
+...
+...
+<body>
+	...
+	...
+	<script type="text/javascript" src="impress.js"></script>
+	<script>impress().init();</script>
+</body>
+...
+...
+</html>
+</xmp>			
+		</div>
+
+		<div id="examplecode" class="step slide" data-X="3000" data-y="0" data-z="-1500">
+			The basic structure - <b>impress</b> and <b>step</b>
+<xmp>
+<div id="impress">
+	
+	<div class="step">
+		Slide1
+	</div>
+
+	<div class="step">
+		Slide2
+	</div>
+
+	<div class="step">
+		Slide3
+	</div>
+
+</div>
+</xmp>
+		</div>
+
+		<div class="step slide topic" data-X="4000" data-y="0" data-z="-1500">
+			, but this is not all...
+		</div>
+
+		<div id="overview" class="step" data-x="4000" data-y="0" data-scale="3">
+    	</div>
+
+    	<div id="coordinate" class="step slide" data-X="5000" data-y="0" data-z="-1500">
+			It's the <b>coordinate</b> that matters!
+<xmp>
+
+<div id="impress">
+	
+<div class="step" data-X="0" data-y="0">
+	Slide1
+</div>
+
+<div class="step" data-X="1000" data-y="0">
+	Slide2
+</div>
+		
+<div class="step" data-X="2000" data-y="0">
+	Slide3
+</div>
+
+</div>
+
+</xmp>
+		</div>
+
+		<div id="zaxis1" class="step slide" data-X="5000" data-y="0" data-z="1500">
+			Don't forget there's <b>z</b> axis!
+<xmp>
+<div class="step" data-X="5000" data-y="0" data-z="0">
+And don't forget there's <b>z</b> axis!
+</div>
+</xmp>
+		</div>
+
+		<div id="zaxis2" class="step slide" data-X="5000" data-y="0" data-z="2250">
+			推
+<xmp>
+<div class="step" data-X="5000" data-y="0" data-z="1500">
+推
+</div>
+</xmp>
+		</div>
+
+		<div id="zaxis3" class="step slide" data-X="5000" data-y="0" data-z="3000">
+			推推
+<xmp>
+<div class="step" data-X="5000" data-y="0" data-z="3000">
+推推
+</div>
+</xmp>
+			OK, enough with 推推, what else can we do?
+		</div>
+
+		<div id="rotate1" class="step slide" data-X="7121" data-y="0" data-z="2121" data-rotate-y="45">
+			We can do <b>轉</b>
+<xmp>
+<div class="step" data-X="..." data-y="..." data-z="..." 
+     data-rotate-y="45">
+	We can do <b>轉</b>
+</div>
+</xmp>
+		</div>
+
+		<div id="rotate2" class="step slide" data-X="8000" data-y="0" data-z="0" data-rotate-y="90">
+			轉轉
+<xmp>
+<div class="step" data-X="..." data-y="..." data-z="..."
+     data-rotate-y="90">
+	轉轉
+</div>
+</xmp>
+		</div>
+
+		<div id="whatelseisgood" class="step slide" data-X="3000" data-y="0" data-z="0">
+			<p>OK, besides all the cool flying pages,</p>
+			<p>what else is good about Impress.js?</p>
+		</div>
+
+		<div class="step slide" data-X="4000" data-y="0" data-z="0">
+			You can embed anythig in the slide like...
+			<img src="http://udn.com/NEWS/MEDIA/8922171-3539794.jpg">
+		</div>
+
+		<div class="step slide" data-X="5000" data-y="0" data-z="0">
+			or...
+			<iframe width="640" height="360" src="http://www.youtube.com/embed/7kKDIAdhi3M?rel=0" frameborder="0"></iframe>
+		</div>
+
+		<div class="step slide" data-X="6000" data-y="0" data-z="0">
+			or...
+			<iframe width="700" height="600" src="http://goods.ruten.com.tw/item/show?21403171636149"></iframe>
+		</div>
+
+		<div id="manyotherbenifits" class="step slide" data-X="7000" data-y="0" data-z="0">
+			And many other benifits that html enjoys!
+		</div>
+
+		<div id="theend" class="step" data-x="9000" data-y="0" data-z="0">
+        	The end
+    	</div>
+
+    	<div id="thanksforyourattention" class="step" data-x="9000" data-y="0" data-z="0" data-rotate-x="30">
+         	Thanks for your attention
+    	</div>
+	
+	</div>
+
+
+	<script type="text/javascript" src="impress.js"></script>
+	<script>impress().init();</script>
+</body>
+</html>
